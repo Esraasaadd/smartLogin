@@ -1,0 +1,53 @@
+body{
+    background-color: #24353f;
+}
+.formContainer{
+    background-color: #24353f;
+    box-shadow:-5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+input{
+    background-color:#24353f !important;
+}
+button{
+    background-color:#24353f ;
+}
+p{
+    color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 50px;
+    background-color: #24353f;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 120px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    margin-bottom: 100px;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+#signupForm h1 , #loginForm h1 ,#home h1{
+        font-family: "Titillium Web", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 40px;
+        line-height: 48px;
+        color: rgb(23, 162, 184);
+}
+
+h2{
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+}

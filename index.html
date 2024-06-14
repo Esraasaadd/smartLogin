@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>smart login</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel='stylesheet'  href='css/style.css'>
+</head>
+<body>
+  <nav class="d-none">
+    <h2 class="text-white">SMART LOGIN</h2>
+    <button id="logoutButton" class="btn btn-outline-warning">Logout</button>
+  </nav>
+  <div id="signupForm" class="container my-5 text-center px-5">
+    <div class="formContainer w-75 m-auto p-5">
+      <h1>Smart Login System</h1>
+      <input oninput="validateInputs(this)" type="text" id="signupName" class="form-control my-3 text-white" placeholder="Enter your name">
+      <input oninput="validateInputs(this)" type="email" id="signupEmail" class="form-control my-3 text-white" placeholder="Enter your email">
+      <input oninput="validateInputs(this)" type="password" id="signupPassword" class="form-control my-3 text-white" placeholder="Enter your password">
+      <button id="signupButton" class="btn btn-outline-info w-100 my-3">Sign up</button>
+      <p>You have an account? <button id="signinPage" class="text-white">sign in</button></p>
+      <p id="emailWarning" class="d-none text-warning">email already exixt</p>
+      <p id="signupValidationWarning" class="d-none text-warning">invalid input</p>
+    </div>
+  </div>
+
+
+  <div id="loginForm" class="container my-5 text-center px-5 d-none">
+  <div class="formContainer w-75 m-auto p-5">
+    <h1>Smart Login System</h1>
+    <input oninput="validateInputs(this)" type="email" id="loginEmail" class="form-control my-3 text-white" placeholder="Enter your email">
+    <input oninput="validateInputs(this)" type="password" id="loginPassword" class="form-control my-3 text-white" placeholder="Enter your password">
+    <button id="loginButton" class="btn btn-outline-info w-100 my-3">Login</button>
+    <p>Don’t have an account? <button id="signupPage" class="text-white">sign up</button></p>
+    <p id="pWarning" class="d-none text-warning">Wrong Email or Password</p>
+    <p id="loginValidationWarning" class="d-none text-warning">invalid input</p>
+  </div>
+</div>
+
+<div id="home" class="container my-5 text-center p-5 d-flex justify-content-center align-items-center d-none ">
+  <div class="formContainer w-75 m-auto p-5 mt-5">
+    <h1>Welcome</h1>
+  </div>
+</div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
