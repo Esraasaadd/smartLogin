@@ -51,3 +51,24 @@ h2{
     font-size: 20px;
     line-height: 30px;
 }
+
+
+@media screen and (max-width: 600px) {
+    nav{
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        height: 100px;
+        background-color: #24353f;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        padding-inline: 10px;
+        padding-bottom: 17px;
+        padding-top: 17px;
+        margin-bottom: 100px;
+        box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    }
+}
