@@ -29,10 +29,10 @@ nav{
     display: flex;
     justify-content: space-between;
     padding-inline: 120px;
-    padding-bottom: 7px;
-    padding-top: 7px;
+    padding-block: 7px;
     margin-bottom: 100px;
     box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    height: 200px;
 }
 
 #signupForm h1 , #loginForm h1 ,#home h1{
@@ -70,5 +70,9 @@ h2{
         padding-top: 17px;
         margin-bottom: 100px;
         box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    }
+
+    .formContainer{
+        width: 100% !important;
     }
 }
